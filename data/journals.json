@@ -17,9 +17,11 @@
       "metrics": {
         "jcrImpactFactor2024": 3.5,
         "fiveYearImpactFactor2024": 4.1,
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
         "medianFirstDecisionDays": 26,
         "downloads2025": "2.1M",
-        "sjr": "verify via SCImago"
+        "transparencyData": "Data Availability Statement required for original research"
       },
       "notFor": [
         "field literature reviews without scientometric contribution",
@@ -39,6 +41,14 @@
         "measurement and estimation",
         "transparent empirical research"
       ],
+      "metrics": {
+        "jcrImpactFactor2023": "2.5, needs verification",
+        "fiveYearImpactFactor": "verify via JCR or publisher",
+        "scimagoQuartile": "Q1, verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "replication data and code required after acceptance"
+      },
       "notFor": [
         "method-heavy manuscripts without clear political science contribution",
         "case narratives without generalizable mechanism",
