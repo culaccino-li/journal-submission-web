@@ -1,0 +1,34 @@
+{
+  "updated": "2026-06-13",
+  "libraryPurpose": "public journal submission guides",
+  "journals": [
+    {
+      "name": "Scientometrics",
+      "status": "public-guide-draft",
+      "page": "pages/scientometrics.html",
+      "bestFor": [
+        "science of science",
+        "bibliometrics",
+        "research evaluation",
+        "scholarly communication",
+        "knowledge mapping",
+        "AI and academic systems"
+      ],
+      "notFor": [
+        "field literature reviews without scientometric contribution",
+        "descriptive keyword mapping without methodological justification",
+        "LLM classification without validation"
+      ]
+    },
+    {
+      "name": "Political Science Research and Methods",
+      "status": "pending-guide",
+      "page": null
+    },
+    {
+      "name": "Perspectives on Politics",
+      "status": "pending-guide",
+      "page": null
+    }
+  ]
+}
