@@ -22,8 +22,21 @@
     },
     {
       "name": "Political Science Research and Methods",
-      "status": "pending-guide",
-      "page": null
+      "status": "public-guide-draft",
+      "page": "pages/political-science-research-and-methods.html",
+      "bestFor": [
+        "causal inference in political science",
+        "formal theory",
+        "political methodology",
+        "replication and reanalysis",
+        "measurement and estimation",
+        "transparent empirical research"
+      ],
+      "notFor": [
+        "method-heavy manuscripts without clear political science contribution",
+        "case narratives without generalizable mechanism",
+        "empirical claims without reproducible data and code"
+      ]
     },
     {
       "name": "Perspectives on Politics",
