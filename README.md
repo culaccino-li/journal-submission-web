@@ -2,6 +2,8 @@
 
 Public-facing journal submission guides for researchers preparing academic manuscripts.
 
+Live site: https://culaccino-li.github.io/journal-submission-web/
+
 The site explains what each journal usually expects, what topics fit, how manuscripts should be framed, and where authors are most likely to face reviewer objections.
 
 ## Pages
