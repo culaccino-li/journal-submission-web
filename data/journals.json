@@ -14,6 +14,13 @@
         "knowledge mapping",
         "AI and academic systems"
       ],
+      "metrics": {
+        "jcrImpactFactor2024": 3.5,
+        "fiveYearImpactFactor2024": 4.1,
+        "medianFirstDecisionDays": 26,
+        "downloads2025": "2.1M",
+        "sjr": "verify via SCImago"
+      },
       "notFor": [
         "field literature reviews without scientometric contribution",
         "descriptive keyword mapping without methodological justification",
