@@ -14,6 +14,10 @@ The site explains what each journal usually expects, what topics fit, how manusc
 - `pages/perspectives-on-politics.html`: Perspectives on Politics submission guide
 - `pages/china-quarterly.html`: The China Quarterly submission guide
 - `pages/business-and-politics.html`: Business and Politics submission guide
+- `pages/review-of-international-political-economy.html`: Review of International Political Economy submission guide
+- `pages/new-political-economy.html`: New Political Economy submission guide
+- `pages/regulation-and-governance.html`: Regulation & Governance submission guide
+- `pages/interest-groups-and-advocacy.html`: Interest Groups & Advocacy submission guide
 - `data/journals.json`: structured journal index
 - `assets/styles.css`: site styles
 

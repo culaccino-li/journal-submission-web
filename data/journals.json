@@ -140,6 +140,110 @@
         "firm performance studies where politics is only a control variable",
         "policy descriptions without a business-government interaction mechanism"
       ]
+    },
+    {
+      "name": "Review of International Political Economy",
+      "status": "public-guide-draft",
+      "page": "pages/review-of-international-political-economy.html",
+      "bestFor": [
+        "international political economy",
+        "global capitalism",
+        "geopolitical economy",
+        "state-market relations",
+        "global production networks",
+        "technology and political economy"
+      ],
+      "metrics": {
+        "jcrImpactFactor": "verify via JCR or publisher",
+        "fiveYearImpactFactor": "verify via JCR or publisher",
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "expected for empirical work; explain data, code, and reproducibility limits"
+      },
+      "notFor": [
+        "single-country policy studies without IPE theoretical contribution",
+        "firm-level studies without global political economy implications",
+        "empirical papers whose contribution is only methodological or descriptive"
+      ]
+    },
+    {
+      "name": "New Political Economy",
+      "status": "public-guide-draft",
+      "page": "pages/new-political-economy.html",
+      "bestFor": [
+        "critical political economy",
+        "state capitalism",
+        "geopolitical economy",
+        "corporate power",
+        "platform capitalism",
+        "state-market transformation"
+      ],
+      "metrics": {
+        "jcrImpactFactor": "verify via JCR or publisher",
+        "fiveYearImpactFactor": "verify via JCR or publisher",
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "context-dependent; explain evidence base and data limitations"
+      },
+      "notFor": [
+        "neutral policy evaluations without political economy argument",
+        "firm strategy papers without power, capitalism, or state-market implications",
+        "technical empirical papers without a critical or theoretical contribution"
+      ]
+    },
+    {
+      "name": "Regulation & Governance",
+      "status": "public-guide-draft",
+      "page": "pages/regulation-and-governance.html",
+      "bestFor": [
+        "regulatory governance",
+        "public policy implementation",
+        "administrative state",
+        "risk governance",
+        "public-private governance",
+        "regulatory institutions"
+      ],
+      "metrics": {
+        "jcrImpactFactor": "verify via JCR or publisher",
+        "fiveYearImpactFactor": "verify via JCR or publisher",
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "expected for empirical work; explain data, institutional material, and reproducibility limits"
+      },
+      "notFor": [
+        "international political economy papers without regulatory governance mechanism",
+        "corporate political strategy papers where regulators are only background",
+        "policy outcome studies without institutional process evidence"
+      ]
+    },
+    {
+      "name": "Interest Groups & Advocacy",
+      "status": "public-guide-draft",
+      "page": "pages/interest-groups-and-advocacy.html",
+      "bestFor": [
+        "interest groups",
+        "lobbying",
+        "advocacy organizations",
+        "policy influence",
+        "venue choice",
+        "political representation"
+      ],
+      "metrics": {
+        "jcrImpactFactor": "verify via JCR or publisher",
+        "fiveYearImpactFactor": "verify via JCR or publisher",
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "expected for empirical work; explain coding, data sources, and reproducibility limits"
+      },
+      "notFor": [
+        "papers without interest groups, advocacy, lobbying, or policy influence",
+        "macro-IPE papers where organizations are not central actors",
+        "lobbying-data papers without interest group theory contribution"
+      ]
     }
   ]
 }
