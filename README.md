@@ -10,6 +10,10 @@ The site explains what each journal usually expects, what topics fit, how manusc
 
 - `index.html`: guide library homepage
 - `pages/scientometrics.html`: Scientometrics submission guide
+- `pages/political-science-research-and-methods.html`: Political Science Research and Methods submission guide
+- `pages/perspectives-on-politics.html`: Perspectives on Politics submission guide
+- `pages/china-quarterly.html`: The China Quarterly submission guide
+- `pages/business-and-politics.html`: Business and Politics submission guide
 - `data/journals.json`: structured journal index
 - `assets/styles.css`: site styles
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "libraryPurpose": "public journal submission guides",
   "journals": [
     {
@@ -109,6 +109,36 @@
         "generic China case studies without China studies engagement",
         "policy commentary without original research and analytical argument",
         "manuscripts that ignore pinyin, Chinese characters, citation, and table/figure style requirements"
+      ]
+    },
+    {
+      "name": "Business and Politics",
+      "status": "public-guide-draft",
+      "page": "pages/business-and-politics.html",
+      "bestFor": [
+        "business-government relations",
+        "corporate political activity",
+        "regulation and public governance",
+        "comparative capitalism",
+        "state-market relations",
+        "global political economy",
+        "firms and institutional change"
+      ],
+      "metrics": {
+        "jcrImpactFactor": 2.4,
+        "fiveYearImpactFactor": 2.4,
+        "citeScore": 3.8,
+        "sjr": 0.721,
+        "snip": 1.227,
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "SJR known; H-index verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "expected for empirical work; explain data, evidence sources, and reproducibility limits"
+      },
+      "notFor": [
+        "management manuscripts without political institutions or governance questions",
+        "firm performance studies where politics is only a control variable",
+        "policy descriptions without a business-government interaction mechanism"
       ]
     }
   ]
