@@ -57,8 +57,30 @@
     },
     {
       "name": "Perspectives on Politics",
-      "status": "pending-guide",
-      "page": null
+      "status": "public-guide-draft",
+      "page": "pages/perspectives-on-politics.html",
+      "bestFor": [
+        "broad political science arguments",
+        "creative syntheses",
+        "public-facing political science",
+        "disciplinary reflection",
+        "agenda-setting reflections",
+        "high-end research for general political science readers"
+      ],
+      "metrics": {
+        "jcrImpactFactor2024": 4.5,
+        "jcrRank2024": "18/325 Political Science",
+        "fiveYearImpactFactor": "verify via JCR or publisher",
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "data and log files expected for quantitative inference before publication"
+      },
+      "notFor": [
+        "narrow subfield manuscripts without broader political science significance",
+        "public commentary without scholarly evidence and theoretical contribution",
+        "technical papers that do not translate findings for broad political science readers"
+      ]
     }
   ]
 }
