@@ -81,6 +81,35 @@
         "public commentary without scholarly evidence and theoretical contribution",
         "technical papers that do not translate findings for broad political science readers"
       ]
+    },
+    {
+      "name": "The China Quarterly",
+      "status": "public-guide-draft",
+      "page": "pages/china-quarterly.html",
+      "bestFor": [
+        "contemporary Greater China studies",
+        "China politics and society",
+        "interdisciplinary area studies",
+        "original primary research",
+        "research reports based on empirical evidence",
+        "China-focused social science with strong contextual knowledge"
+      ],
+      "metrics": {
+        "jcrImpactFactor": 2.5,
+        "fiveYearImpactFactor": 2.9,
+        "citeScore": 5.1,
+        "sjr": 1.722,
+        "snip": 2.468,
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "SJR known; H-index verify via SCImago",
+        "editorialSpeed": "verify via publisher",
+        "transparencyData": "context-dependent; explain data, interviews, archives, and evidence-sharing limits"
+      },
+      "notFor": [
+        "generic China case studies without China studies engagement",
+        "policy commentary without original research and analytical argument",
+        "manuscripts that ignore pinyin, Chinese characters, citation, and table/figure style requirements"
+      ]
     }
   ]
 }
