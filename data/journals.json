@@ -272,6 +272,35 @@
         "method-heavy manuscripts without a broad political science question",
         "descriptive empirical papers without strong identification, theory, or replication support"
       ]
+    },
+    {
+      "name": "European Journal of International Relations",
+      "status": "public-guide-draft",
+      "page": "pages/european-journal-of-international-relations.html",
+      "bestFor": [
+        "international relations theory",
+        "global politics",
+        "security studies",
+        "international political economy",
+        "normative theory",
+        "critical IR",
+        "historical and contemporary theoretically informed empirical research"
+      ],
+      "metrics": {
+        "jcrImpactFactor2024": 2.9,
+        "fiveYearImpactFactor2024": 4.0,
+        "citeScore2023": 6.6,
+        "jcrRank2024": "15/165 International Relations",
+        "scopusRank2024": "33/706 Political Science and International Relations",
+        "scimagoQuartile": "verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "transparencyData": "data sharing encouraged; Data Availability Statement expected where relevant"
+      },
+      "notFor": [
+        "foreign policy case studies without IR theoretical contribution",
+        "regional event narratives without conceptual innovation",
+        "policy commentary without theory, method, or evidence transparency"
+      ]
     }
   ]
 }
