@@ -18,6 +18,7 @@ The site explains what each journal usually expects, what topics fit, how manusc
 - `pages/new-political-economy.html`: New Political Economy submission guide
 - `pages/regulation-and-governance.html`: Regulation & Governance submission guide
 - `pages/interest-groups-and-advocacy.html`: Interest Groups & Advocacy submission guide
+- `pages/american-journal-of-political-science.html`: American Journal of Political Science submission guide
 - `data/journals.json`: structured journal index
 - `assets/styles.css`: site styles
 

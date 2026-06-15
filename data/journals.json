@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "libraryPurpose": "public journal submission guides",
   "journals": [
     {
@@ -243,6 +243,34 @@
         "papers without interest groups, advocacy, lobbying, or policy influence",
         "macro-IPE papers where organizations are not central actors",
         "lobbying-data papers without interest group theory contribution"
+      ]
+    },
+    {
+      "name": "American Journal of Political Science",
+      "status": "public-guide-draft",
+      "page": "pages/american-journal-of-political-science.html",
+      "bestFor": [
+        "general political science",
+        "causal inference",
+        "formal theory",
+        "political institutions",
+        "political behavior",
+        "political economy",
+        "methodologically rigorous empirical research"
+      ],
+      "metrics": {
+        "jcrImpactFactor2024": 5.6,
+        "fiveYearImpactFactor": "verify via JCR or publisher",
+        "jcrRank2024": "7/322 Political Science",
+        "scimagoQuartile": "Q1, verify via SCImago",
+        "sjrHIndex": "verify via SCImago",
+        "editorialSpeed": "verify via publisher or editorial reports",
+        "transparencyData": "replication materials required in AJPS Dataverse and externally verified"
+      },
+      "notFor": [
+        "narrow case studies without general political science contribution",
+        "method-heavy manuscripts without a broad political science question",
+        "descriptive empirical papers without strong identification, theory, or replication support"
       ]
     }
   ]
