@@ -328,6 +328,37 @@
         "bibliometric mappings without substantive political science evaluation",
         "author-by-author narrative reviews without an organizing argument"
       ]
+    },
+    {
+      "name": "American Political Science Review",
+      "status": "public-guide-draft",
+      "page": "pages/american-political-science-review.html",
+      "bestFor": [
+        "general political science",
+        "political theory",
+        "comparative politics",
+        "political behavior",
+        "international relations",
+        "political methodology",
+        "replication and reappraisal",
+        "registered reports",
+        "research synthesis"
+      ],
+      "metrics": {
+        "twoYearImpactFactor": 5.8,
+        "fiveYearImpactFactor": 8.5,
+        "citeScore": 11.0,
+        "sjr": 5.433,
+        "articlesPublished2024": 122,
+        "openAccessArticles2024": 111,
+        "transparencyData": "DA-RT transparency; computational reproducibility and formal proofs may be independently verified"
+      },
+      "notFor": [
+        "narrow case studies without a traveling political science contribution",
+        "method or data novelty without an important substantive question",
+        "current-events analysis without theory and scope conditions",
+        "empirical manuscripts without transparent measurement, research choices, and reproducibility support"
+      ]
     }
   ]
 }
