@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15",
+  "updated": "2026-06-24",
   "libraryPurpose": "public journal submission guides",
   "journals": [
     {
@@ -300,6 +300,33 @@
         "foreign policy case studies without IR theoretical contribution",
         "regional event narratives without conceptual innovation",
         "policy commentary without theory, method, or evidence transparency"
+      ]
+    },
+    {
+      "name": "Annual Review of Political Science",
+      "status": "public-guide-draft",
+      "page": "pages/annual-review-of-political-science.html",
+      "bestFor": [
+        "invited authoritative reviews",
+        "field synthesis",
+        "conceptual reorganization",
+        "evidence assessment",
+        "political science research agendas",
+        "cross-subfield integration"
+      ],
+      "metrics": {
+        "jcrImpactFactor2024": 9.5,
+        "jcrRank2024": "1/322 Political Science",
+        "publicationFrequency": "annual",
+        "submissionRoute": "invited; unsolicited manuscripts not accepted",
+        "accessModel": "Subscribe to Open; verify current volume status",
+        "latestVolumeChecked": "Volume 29, published June 15, 2026"
+      },
+      "notFor": [
+        "unsolicited original research articles",
+        "thesis literature reviews without field-level synthesis",
+        "bibliometric mappings without substantive political science evaluation",
+        "author-by-author narrative reviews without an organizing argument"
       ]
     }
   ]
