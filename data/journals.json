@@ -388,6 +388,35 @@
         "scenario forecasts without transparent assumptions and sensitivity analysis",
         "policy recommendations that exceed the evidence on military and political effects"
       ]
+    },
+    {
+      "name": "Science",
+      "status": "public-guide-draft",
+      "page": "pages/science.html",
+      "bestFor": [
+        "general science discoveries about human behavior",
+        "computational social science with decisive designs",
+        "large-scale field experiments",
+        "cross-context social mechanisms",
+        "AI and society",
+        "collective behavior and cooperation",
+        "science of science with general mechanisms"
+      ],
+      "metrics": {
+        "jcrImpactFactor": "verify via official current metrics",
+        "openAlexHIndex2026": 1750,
+        "openAlexTwoYearMeanCitedness2026": 18.99,
+        "publicationFrequency": "weekly",
+        "audience": "multidisciplinary scientific community",
+        "transparencyData": "strong data, code, ethics, materials, and reproducibility expectations"
+      },
+      "notFor": [
+        "descriptive platform analyses without causal or mechanistic contribution",
+        "machine-learning applications where accuracy is the main result",
+        "single convenience-sample experiments without external validation",
+        "bibliometric maps without a general mechanism of science",
+        "field-specific contributions that do not change broader scientific understanding"
+      ]
     }
   ]
 }

@@ -23,6 +23,7 @@ The site explains what each journal usually expects, what topics fit, how manusc
 - `pages/annual-review-of-political-science.html`: Annual Review of Political Science invitation and review-writing guide
 - `pages/american-political-science-review.html`: American Political Science Review submission guide
 - `pages/international-security.html`: International Security submission guide
+- `pages/science.html`: Science social science and computational social science submission guide
 - `data/journals.json`: structured journal index
 - `assets/styles.css`: site styles
 
