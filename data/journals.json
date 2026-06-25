@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "libraryPurpose": "public journal submission guides",
   "journals": [
     {
@@ -358,6 +358,35 @@
         "method or data novelty without an important substantive question",
         "current-events analysis without theory and scope conditions",
         "empirical manuscripts without transparent measurement, research choices, and reproducibility support"
+      ]
+    },
+    {
+      "name": "International Security",
+      "status": "public-guide-draft",
+      "page": "pages/international-security.html",
+      "bestFor": [
+        "security studies",
+        "war and military effectiveness",
+        "nuclear strategy and deterrence",
+        "great power competition",
+        "alliances and signaling",
+        "military technology",
+        "cyber and space security",
+        "terrorism and civil-military relations"
+      ],
+      "metrics": {
+        "jcrImpactFactor": "verify via Clarivate or MIT Press",
+        "scimagoQuartile": "Q1, verify via SCImago",
+        "openAlexHIndex2026": 184,
+        "publicationFrequency": "quarterly",
+        "latestVolumeChecked": "Volume 50, 2025-2026",
+        "transparencyData": "transparent data, archival, interview, simulation, and military-assessment assumptions expected"
+      },
+      "notFor": [
+        "general foreign policy studies without a central security mechanism",
+        "military capability claims based only on platform counts",
+        "scenario forecasts without transparent assumptions and sensitivity analysis",
+        "policy recommendations that exceed the evidence on military and political effects"
       ]
     }
   ]

@@ -22,6 +22,7 @@ The site explains what each journal usually expects, what topics fit, how manusc
 - `pages/european-journal-of-international-relations.html`: European Journal of International Relations submission guide
 - `pages/annual-review-of-political-science.html`: Annual Review of Political Science invitation and review-writing guide
 - `pages/american-political-science-review.html`: American Political Science Review submission guide
+- `pages/international-security.html`: International Security submission guide
 - `data/journals.json`: structured journal index
 - `assets/styles.css`: site styles
 
