@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Journal of Computational Social Science 投稿指南</title>
+    <link rel="stylesheet" href="../assets/styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <p class="label">Journal Guide</p>
+      <h1>Journal of Computational Social Science 投稿指南</h1>
+      <p class="intro">
+        这本期刊不是“任何机器学习加社会数据”的收纳箱，而是要求计算方法、数据设计和社会科学问题共同工作。
+      </p>
+      <nav class="toc" aria-label="Page sections">
+        <a href="../index.html">首页</a>
+        <a href="#metrics">期刊指标</a>
+        <a href="#topics">可投主题</a>
+        <a href="#patterns">近期模式</a>
+        <a href="#article-types">文章类型</a>
+        <a href="#standards">投稿要求</a>
+        <a href="#figures">图表方法</a>
+        <a href="#risks">拒稿风险</a>
+      </nav>
+    </header>
+
+    <main class="page article-page">
+      <section class="summary-card">
+        <h2>一句话判断</h2>
+        <p>
+          如果论文用计算方法回答一个真正的社会科学问题，并能清楚说明数据来源、模型选择、验证方式、偏差限制和理论或方法贡献，
+          就适合考虑 <em>Journal of Computational Social Science</em>。如果只是把社交媒体文本丢进模型、报告准确率或情绪比例，
+          却没有社会机制、研究设计和可复现材料，适配度会很弱。
+        </p>
+      </section>
+
+      <section id="metrics">
+        <h2>期刊指标与基本信息</h2>
+        <p>
+          这本期刊由 Springer 出版，定位在计算方法与社会科学问题的交叉处。期刊指标和分区每年可能变化，
+          正式投稿前应通过 Springer、Clarivate、Scopus 或 SCImago 的当年页面复核。
+        </p>
+        <div class="metrics-grid">
+          <article>
+            <p class="metric-label">Publisher</p>
+            <strong>Springer</strong>
+            <span>Springer Nature journal</span>
+          </article>
+          <article>
+            <p class="metric-label">Frequency</p>
+            <strong>Quarterly</strong>
+            <span>Vol. 9, 2026 is online</span>
+          </article>
+          <article>
+            <p class="metric-label">ISSN</p>
+            <strong>2432-2717</strong>
+            <span>eISSN 2432-2725</span>
+          </article>
+          <article>
+            <p class="metric-label">Article model</p>
+            <strong>Hybrid OA</strong>
+            <span>Subscription with Open Access option</span>
+          </article>
+          <article>
+            <p class="metric-label">Peer review</p>
+            <strong>Single-blind</strong>
+            <span>Springer peer-review model</span>
+          </article>
+          <article>
+            <p class="metric-label">Metrics</p>
+            <strong>Verify</strong>
+            <span>Impact factor / quartile by current database</span>
+          </article>
+        </div>
+        <div class="metric-figure" role="img" aria-label="Journal of Computational Social Science fit burden chart">
+          <div class="bar-row">
+            <span>Computational rigor</span>
+            <div><i style="width: 88%"></i></div>
+            <b>High</b>
+          </div>
+          <div class="bar-row">
+            <span>Social-science contribution</span>
+            <div><i style="width: 84%"></i></div>
+            <b>High</b>
+          </div>
+          <div class="bar-row">
+            <span>Data / code transparency</span>
+            <div><i style="width: 78%"></i></div>
+            <b>Strong</b>
+          </div>
+        </div>
+        <p class="metric-note">
+          注：期刊页面和出版数据库对影响因子、CiteScore、SJR 和分区的更新时间不同；网页中不把这些指标混合使用。
+          如果用于正式投稿决策，应优先复核当前 Springer journal page 和目标数据库页面。
+        </p>
+      </section>
+
+      <section id="topics">
+        <h2>适合投稿的主题</h2>
+        <div class="two-col">
+          <div>
+            <h3>最稳的主题入口</h3>
+            <ul class="plain-list">
+              <li>社交媒体、新闻、平台、评论、论坛和在线行为的计算分析。</li>
+              <li>政治传播、意识形态、选举、极化、虚假信息、仇恨言论和公共舆论。</li>
+              <li>社会网络、影响力、扩散、中心性、群体互动和在线社群结构。</li>
+              <li>城市流动、贫困测量、犯罪、人口、健康、韧性和社会风险建模。</li>
+              <li>LLM、代理模型、模拟实验、人类态度模拟和人机比较。</li>
+              <li>可复用数据集、基准数据、标注方案、软件工具和方法论文。</li>
+            </ul>
+          </div>
+          <div>
+            <h3>可以投，但必须补强</h3>
+            <ul class="plain-list">
+              <li>机器学习分类：需要解释社会科学变量、标注标准、误差类型和外部效度。</li>
+              <li>文本分析：不能只给主题词，要说明语义、框架、话语或情绪如何产生社会意义。</li>
+              <li>网络分析：要解释边的含义、采样偏差、阈值选择和中心性指标的社会含义。</li>
+              <li>LLM研究：必须区分模拟、测量、生成和解释，避免把模型输出当成人类事实。</li>
+              <li>地区案例：要说明其对跨情境方法、社会机制或计算社会科学问题的贡献。</li>
+              <li>数据集论文：需要有清楚的数据来源、标注流程、质量控制、许可和复用价值。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="warning">
+        <h2>不建议直接投的稿件</h2>
+        <ul class="plain-list">
+          <li>只有模型准确率，没有社会科学问题和理论解释。</li>
+          <li>只把公开平台数据可视化，没有采样、偏差、伦理和可复现说明。</li>
+          <li>用 BERT、LDA、SNA 或 LLM 做常规分析，但没有方法改进或实质发现。</li>
+          <li>把情绪、立场、意识形态、种族、性别等敏感属性当作简单标签，而没有验证和伦理讨论。</li>
+          <li>数据集或软件只服务作者自己的论文，缺少文档、许可、基准或复用场景。</li>
+          <li>社会科学结论超过数据支持范围，例如从 Twitter 用户推论整个国家公众。</li>
+        </ul>
+      </section>
+
+      <section id="patterns">
+        <h2>2025—2026年文章透露的模式</h2>
+        <p>
+          近期文章显示，期刊接受的主题很宽，但常见成功路径是把计算技术嵌入一个可审查的社会科学设计：
+          数据如何构成、模型如何验证、误差如何影响结论、结果怎样回到社会机制。
+        </p>
+        <div class="two-col">
+          <div>
+            <h3>政治话语与标注数据</h3>
+            <p>
+              例如 Agoraspeech 这类政治话语数据集文章，价值不只是“收集了文本”，而在于多重标注、人类与AI视角、
+              语料覆盖、标注一致性和未来复用场景。数据集论文必须让别人能继续使用。
+            </p>
+          </div>
+          <div>
+            <h3>新闻媒体偏见与框架</h3>
+            <p>
+              政治偏见检测文章不仅做分类，还通过实体框架分析增强可解释性。期刊偏好能把模型输出转译成社会科学概念的研究，
+              而不是黑箱标签。
+            </p>
+          </div>
+          <div>
+            <h3>社交媒体与公共舆论</h3>
+            <p>
+              X/Twitter 研究覆盖企业政治捐赠与受众构成、移民和歧视认知、Community Notes 来源可信度、
+              政治人物错误信息行为等。共同风险是平台样本偏差，因此需要谨慎界定外推边界。
+            </p>
+          </div>
+          <div>
+            <h3>LLM代理与人类态度模拟</h3>
+            <p>
+              近年文章使用 LLM 代理研究市场动态、环境传播和人类态度模拟。好的写法会把 LLM 当作模拟对象或研究工具，
+              并讨论偏差、路径依赖、校准和与人类数据的差异。
+            </p>
+          </div>
+          <div>
+            <h3>低资源与敏感文本</h3>
+            <p>
+              低资源印尼社交媒体仇恨言论、抑郁检测、dogwhistle追踪等文章显示，期刊接受社会风险议题，
+              但必须处理标注伦理、误报后果、语言文化语境和类别不平衡。
+            </p>
+          </div>
+          <div>
+            <h3>社会政策与复杂系统</h3>
+            <p>
+              小区域估计、适应性贫困指数、疫情韧性系统动力学、城市流动Hodge分解等文章说明，
+              不只文本和平台研究能投；只要计算设计能解释社会问题，政策和空间数据也有入口。
+            </p>
+          </div>
+        </div>
+        <div class="structure">
+          <article>
+            <h3>共同模式1：计算结果必须可解释</h3>
+            <p>分类、嵌入、中心性、模拟和预测都要转化为社会科学含义。</p>
+          </article>
+          <article>
+            <h3>共同模式2：验证比模型名字重要</h3>
+            <p>审稿人更关心数据、标注、人类基准、稳健性和误差，而不是模型是否新潮。</p>
+          </article>
+          <article>
+            <h3>共同模式3：跨学科读者要能读懂</h3>
+            <p>技术细节要充分，但社会科学问题、变量和结论不能只写给计算机科学读者。</p>
+          </article>
+          <article>
+            <h3>共同模式4：数据伦理是论证的一部分</h3>
+            <p>平台数据、敏感属性、弱势群体和AI模拟都需要边界说明。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="article-types">
+        <h2>适合的文章类型</h2>
+        <div class="structure">
+          <article>
+            <h3>Empirical research</h3>
+            <p>用计算方法产生新的社会科学发现，核心是研究设计、验证和解释，而不是工具展示。</p>
+          </article>
+          <article>
+            <h3>Method paper</h3>
+            <p>提出或改进计算方法，并说明它解决了什么社会科学测量、推断或解释问题。</p>
+          </article>
+          <article>
+            <h3>Review article</h3>
+            <p>综述应帮助领域组织知识、方法、数据和未来问题，而不是普通文献罗列。</p>
+          </article>
+          <article>
+            <h3>Dataset paper</h3>
+            <p>介绍可复用数据资源，重点是采集、清洗、标注、质量控制、许可和使用示例。</p>
+          </article>
+          <article>
+            <h3>Software paper</h3>
+            <p>软件应有文档、示例、开放许可、维护计划，并展示它能解决的研究问题。</p>
+          </article>
+          <article>
+            <h3>Simulation / agent study</h3>
+            <p>需要明确参数、行为假设、校准数据、敏感性分析和可解释的社会机制。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="standards">
+        <h2>投稿与格式要点</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>官方范围</th>
+              <td>计算方法与社会科学问题的交叉研究，强调计算技术对社会现象理解的推进。</td>
+            </tr>
+            <tr>
+              <th>投稿系统</th>
+              <td>通过 Springer Nature Editorial Manager 在线投稿。</td>
+            </tr>
+            <tr>
+              <th>审稿方式</th>
+              <td>single-blind peer review。</td>
+            </tr>
+            <tr>
+              <th>摘要</th>
+              <td>建议写清研究问题、数据、计算方法、验证策略、核心发现和贡献。</td>
+            </tr>
+            <tr>
+              <th>数据与代码</th>
+              <td>原创研究应提供数据可用性说明；强烈建议提供代码、补充材料、标注规则、检索式或模型配置。</td>
+            </tr>
+            <tr>
+              <th>声明</th>
+              <td>按 Springer 要求准备利益冲突、资金、伦理、数据可用性、作者贡献等声明。</td>
+            </tr>
+            <tr>
+              <th>图表</th>
+              <td>图题不要嵌在图内；图表应可读、可复现，并在图注中说明数据、变量、单位和模型设定。</td>
+            </tr>
+            <tr>
+              <th>AI使用</th>
+              <td>生成式AI不能列为作者；如用于研究流程、文本生成、标注辅助或代码生成，应在相应部分透明披露。</td>
+            </tr>
+            <tr>
+              <th>伦理风险</th>
+              <td>涉及个人数据、平台数据、弱势群体、健康、犯罪、身份属性或敏感推断时，应说明伦理审批、匿名化和风险控制。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="figures">
+        <h2>图表、模型与材料怎么处理</h2>
+        <ul class="plain-list">
+          <li>分类任务应提供基准模型、验证集、混淆矩阵、错误类型和类别不平衡处理。</li>
+          <li>文本嵌入或LLM研究应公开prompt、模型版本、温度参数、抽样方式和人工验证策略。</li>
+          <li>网络图必须说明节点、边、时间窗、权重、阈值、布局算法和是否存在平台采样偏差。</li>
+          <li>预测模型要报告实质意义，不只报告准确率、F1或AUC。</li>
+          <li>模拟研究应提供参数表、敏感性分析和可复现实验流程。</li>
+          <li>地图和空间图应说明空间单位、数据缺失、尺度效应和隐私处理。</li>
+          <li>数据集论文应配数据字典、标注手册、许可说明、已知偏差和使用示例。</li>
+          <li>正文图表讲核心发现，附录放完整稳健性、额外模型和可复现细节。</li>
+        </ul>
+      </section>
+
+      <section id="risks">
+        <h2>最常见拒稿风险</h2>
+        <div class="risk-list">
+          <article>
+            <h3>社会科学问题太弱</h3>
+            <p>模型做得复杂，但文章没有解释一个重要社会现象，也没有推进社会科学理论或测量。</p>
+          </article>
+          <article>
+            <h3>验证不足</h3>
+            <p>没有人工标注、外部数据、稳健性检查、误差分析或与替代模型比较。</p>
+          </article>
+          <article>
+            <h3>平台样本外推过度</h3>
+            <p>把社交媒体用户、新闻样本或平台行为直接等同于公众、社会或国家。</p>
+          </article>
+          <article>
+            <h3>方法黑箱化</h3>
+            <p>模型流程、参数、prompt、特征、标注规则和代码不可见，导致结果不可审查。</p>
+          </article>
+          <article>
+            <h3>敏感属性处理粗糙</h3>
+            <p>对性别、种族、心理健康、贫困、犯罪或政治立场的推断缺少伦理和误差讨论。</p>
+          </article>
+          <article>
+            <h3>贡献定位不准</h3>
+            <p>既不像社会科学实证论文，也不像方法、数据集或软件论文，导致审稿人不知道按什么标准评价。</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>投稿前自查</h2>
+        <ul class="plain-list">
+          <li>一句话能否说清社会科学问题，而不是只说用了什么模型？</li>
+          <li>数据来源、采样、清洗、标注和排除规则是否足够透明？</li>
+          <li>模型结果是否有人工验证、外部验证或稳健性检验？</li>
+          <li>每个图表是否服务一个社会科学判断？</li>
+          <li>是否清楚说明平台数据、敏感属性和AI使用的伦理边界？</li>
+          <li>如果是数据集或软件论文，别人是否能下载、理解、复用并引用？</li>
+          <li>讨论部分是否回到社会机制、理论贡献或方法贡献，而不是重复结果？</li>
+          <li>是否准备好数据可用性说明、代码链接、补充材料和所有声明？</li>
+        </ul>
+      </section>
+
+      <section class="source-note">
+        <h2>依据与链接</h2>
+        <p>
+          页面依据 Springer 官方期刊页面、投稿指南、卷期目录和 Crossref 近期文章元数据整理，
+          并对2025—2026年文章题目与摘要进行模式识别。正式投稿前应再次核对官方作者指南和当前数据库指标。
+        </p>
+        <p>
+          <a href="https://link.springer.com/journal/42001">Springer 期刊主页</a>；
+          <a href="https://link.springer.com/journal/42001/submission-guidelines">官方投稿指南</a>；
+          <a href="https://link.springer.com/journal/42001/volumes-and-issues">卷期目录</a>；
+          <a href="https://api.crossref.org/journals/2432-2725/works">Crossref 元数据</a>。
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

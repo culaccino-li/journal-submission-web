@@ -419,6 +419,38 @@
       ]
     },
     {
+      "name": "Journal of Computational Social Science",
+      "status": "public-guide-draft",
+      "page": "pages/journal-of-computational-social-science.html",
+      "bestFor": [
+        "computational social science",
+        "social media and platform data",
+        "text-as-data and NLP",
+        "social network analysis",
+        "LLM agents and simulation",
+        "computational political communication",
+        "urban mobility, poverty, health, crime, and social risk modeling",
+        "dataset and software papers for social science research"
+      ],
+      "metrics": {
+        "publisher": "Springer",
+        "publicationFrequency": "quarterly",
+        "issn": "2432-2717",
+        "eissn": "2432-2725",
+        "latestVolumeChecked": "Volume 9, 2026",
+        "publishingModel": "hybrid open access",
+        "peerReview": "single-blind"
+      },
+      "notFor": [
+        "machine-learning papers without a social-science question",
+        "platform data visualizations without sampling and bias discussion",
+        "LLM or NLP analyses without human validation or error analysis",
+        "sensitive attribute inference without ethics and uncertainty discussion",
+        "dataset or software papers without documentation, license, and reuse value",
+        "claims that generalize from narrow online samples to whole societies"
+      ]
+    },
+    {
       "name": "世界经济与政治",
       "status": "public-guide-draft",
       "page": "pages/shijie-jingji-yu-zhengzhi.html",
